@@ -6,7 +6,7 @@ public class A1Q2 {
 		int count=0;
 		do {
 			count++;
-		}while(n/2==0);
+		}while(n/=2>0);
 		System.out.println("The number of times one should divide "+n+" by 2 until a number less than 2 is obtained is= "+count);
 		sc.close();
 	}
