@@ -1,6 +1,6 @@
 import java,util.Scanner;
 public class A1Q3{
-  static char[] characters = {'c','a','t','d','o','g'};
+  static char[] characters = {'c','a','r','b','o','n'};
  
  public static void main(String[] args) {
      printPermutation(characters, 0, characters.length);
