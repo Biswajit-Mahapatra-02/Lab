@@ -4,9 +4,10 @@ public class Student{
   private long roll;
   private double mark;
   void setData(String name, long roll, double mark){
-    this.name = name;
-    this.roll = roll;
-    this.mark = mark;
+    Scanner sc = new Scanner (System.in);
+    this.name = sc.nextLine();
+    this.roll = sc.nextLong();
+    this.mark = sc.nextDouble();
   }
   void display(){
       System.out.println("Name: "+name);
