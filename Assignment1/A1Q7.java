@@ -1,10 +1,8 @@
 package Assignment1;
 
 import java.util.Scanner;
-import java.util.Vector;
 public class A1Q7{
   
-  static Vector<Integer> uniqueNums = new Vector<>();
   
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
