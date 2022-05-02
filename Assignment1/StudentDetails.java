@@ -5,11 +5,11 @@ public class StudentDetails{
    Student B = new Student();
    Student C = new Student();
    System.out.println("Enter details student 1: ");
-   A.setDetails();
+   A.setData();
    System.out.println("Enter details student 2: ");
-   B.setDetails();
+   B.setData();
    System.out.println("Enter details student 3: ");
-   C.setDetails();
+   C.setData();
    System.out.println("Student 1 details: ");
    A.display();
    System.out.println("Student 2 details: ");
