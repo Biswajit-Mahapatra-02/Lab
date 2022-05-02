@@ -1,4 +1,4 @@
-import java,util.Scanner;
+package Assignment1;
 public class A1Q3{
   static char[] characters = {'c','a','r','b','o','n'};
  

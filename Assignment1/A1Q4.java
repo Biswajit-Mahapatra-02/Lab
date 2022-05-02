@@ -1,3 +1,4 @@
+package Assignment1;
 import java.util.Scanner;
 
 public class A1Q4 {
@@ -24,5 +25,6 @@ public static void main(String[] args) {
             System.out.println(str[i]);
             }
         }
+        s.close();
     }
 }
