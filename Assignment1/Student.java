@@ -3,7 +3,7 @@ public class Student{
   private String name;
   private long roll;
   private double mark;
-  void setData(String name, long roll, double mark){
+  void setData(){
     Scanner sc = new Scanner (System.in);
     this.name = sc.nextLine();
     this.roll = sc.nextLong();
