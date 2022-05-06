@@ -1,4 +1,3 @@
-package Assignment1;
 import java.util.Arrays;
 public class A1Q6 {
 	public static void main(String args[]) {

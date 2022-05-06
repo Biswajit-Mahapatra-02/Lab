@@ -1,4 +1,3 @@
-package Assignment1;
 import java.util.Scanner;
 public class A1Q5 {
 	public static void main(String args[]) {
