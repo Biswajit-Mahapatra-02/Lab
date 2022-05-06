@@ -14,6 +14,7 @@ public class MainQ11 {
 		y = sc.nextDouble();
 		B.setPoint(x, y);
 		findDistance(A,B);
+		sc.close();
 	}
 	static void findDistance(PointQ11 A, PointQ11 B) {
 		double dist = Math.sqrt(Math.pow(A.x-B.x,2) + Math.pow(A.y-B.y,2) );

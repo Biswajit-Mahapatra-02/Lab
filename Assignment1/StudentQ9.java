@@ -8,6 +8,7 @@ public class StudentQ9{
     this.name = sc.nextLine();
     this.roll = sc.nextLong();
     this.mark = sc.nextDouble();
+    sc.close();
   }
   void display(){
       System.out.println("Name: "+name);

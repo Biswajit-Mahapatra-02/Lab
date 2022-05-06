@@ -8,6 +8,7 @@ public class StudentQ10{
     this.name = name;
     this.roll = roll;
     this.mark = mark;
+    sc.close();
   }
   void display(){
       System.out.println("Name: "+name);

@@ -37,6 +37,6 @@ public class StudentDetailsQ10 {
 		   B.display();
 		   System.out.println("Student 3 details: ");
 		   C.display();
-		   
+		   sc.close();
 		 }
 }
