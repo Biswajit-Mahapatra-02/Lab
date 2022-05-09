@@ -14,10 +14,10 @@ public class Complex {
 		else 
 			System.out.println("The complex number is: "+real);
 	}
-	public Complex add(Complex P) {
+	public Complex add(Complex P1) {
 		Complex R = new Complex();
-		double real = this.real + P.real;
-		double imag = this.imag + P.imag;
+		double real = P1.real + P2.real;
+		double imag = P1.imag + P2.imag;
 		R.setData(real, imag);
 		return R;
 	}
