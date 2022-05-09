@@ -17,7 +17,7 @@ public class CompleXmain {
 		Complex B = new Complex();
 		B.setData(real, imag);
 		System.out.println("A + B => ");
-		Complex Result = A.add(B);
+		Complex Result = A.add(A,B);
 		Result.display();
 		sc.close();
 	}
