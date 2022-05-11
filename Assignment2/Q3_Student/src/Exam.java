@@ -1,5 +1,3 @@
-package Assignment2.Q3_Student;
-
 public class Exam extends Student {
     private double mark1;
     private double mark2;

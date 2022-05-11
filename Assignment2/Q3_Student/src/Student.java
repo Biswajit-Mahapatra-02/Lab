@@ -1,4 +1,3 @@
-package Assignment2.Q3_Student;
 public class Student{
     private long rollNo;
     private String name;
