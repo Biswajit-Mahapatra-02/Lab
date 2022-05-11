@@ -14,7 +14,7 @@ public class Complex {
 		else 
 			System.out.println("The complex number is: "+real);
 	}
-	public Complex add(Complex P1) {
+	public Complex add(Complex P1, Complex P2) {
 		Complex R = new Complex();
 		double real = P1.real + P2.real;
 		double imag = P1.imag + P2.imag;
