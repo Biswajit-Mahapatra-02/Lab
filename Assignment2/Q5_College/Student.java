@@ -10,14 +10,13 @@ public class Student extends Person{
 		this.marks = marks;
 		this.rollNo = rollNo;
 	}
-	public String getCourse() {
-		return course;
-	}
-	public long getRollNo() {
-		return rollNo;
-	}
-	public double getMarks() {
-		return marks;
+	public void display() {
+		System.out.println("Name: "+getName());
+		System.out.println("Age: "+getAge());
+		System.out.println("Course: "+ course);
+		System.out.println("RollNo: "+ rollNo);
+		System.out.println("Marks: "+ marks);
+		
 	}
 	
 }

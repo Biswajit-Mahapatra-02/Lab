@@ -8,10 +8,11 @@ public class Teacher extends Person{
 		this.subject_assigned = subject_assigned;
 		this.contact_hour = contact_hour;
 	}
-	public String getSubject_assigned() {
-		return this.subject_assigned;
-	}
-	public int getContact_hour() {
-		return this.contact_hour;
+	public void display() {
+		System.out.println("Name: "+ getName());
+		System.out.println("Age: "+ getAge());
+		System.out.println("contact_hour: "+ contact_hour);
+		System.out.println("Subject assigned: "+ subject_assigned);
+		
 	}
 }
