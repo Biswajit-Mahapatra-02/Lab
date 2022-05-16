@@ -8,12 +8,14 @@ public class Manager extends Employee{
 	}
 
 	public void displayEmp() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("First Name: "+fname);
+		System.out.println("Last Name: "+lname);
+		System.out.println("Employee ID: "+empID);
+		System.out.println("Salary: "+salary);
 	}
 
 	public void giveBonus(double amount) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }
