@@ -11,6 +11,7 @@ public class Main {
 		long rollNo = sc.nextLong();
 		System.out.print("Enter mark1: ");
 		double mark1 = sc.nextDouble();
+		System.out.print("Enter mark2: ");
 		double mark2 = sc.nextDouble();
 		ob.input(name, rollNo, mark1, mark2);
 		ob.output();
