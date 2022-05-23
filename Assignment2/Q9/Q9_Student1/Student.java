@@ -1,4 +1,4 @@
-package Q9_Student1;
+package Q9.Q9_Student1;
 
 public class Student {
 	private String name;

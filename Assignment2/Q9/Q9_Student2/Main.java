@@ -1,5 +1,5 @@
-package Q9_Student2;
-import Q9_Student1.*;
+package Q9.Q9_Student2;
+import Q9.Q9_Student1.*;
 import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {

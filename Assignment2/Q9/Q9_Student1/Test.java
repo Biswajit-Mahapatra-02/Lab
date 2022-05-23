@@ -1,5 +1,5 @@
-package Q9_Student1;
-import Q9_Student2.*;
+package Q9.Q9_Student1;
+import Q9.Q9_Student2.*;
 
 public class Test extends Student implements Sports {
 	private double mark1;

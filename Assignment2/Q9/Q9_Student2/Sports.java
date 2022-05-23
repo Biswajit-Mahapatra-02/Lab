@@ -1,4 +1,4 @@
-package Q9_Student2;
+package Q9.Q9_Student2;
 
 public interface Sports {
 	public static final int score1 = 10;
