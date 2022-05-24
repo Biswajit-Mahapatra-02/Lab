@@ -5,11 +5,10 @@ public class A1Q2 {
 		int n = sc.nextInt();
 		int count=0;
 		int temp = n;
-		while(temp>0) {
+		while(temp>=2) {
 			count++;
 			temp/=2;
 		}
-		count--;
 		System.out.println("The number of times one should divide "+n+" by 2 until a number less than 2 is obtained is = "+count);
 		sc.close();
 	}
