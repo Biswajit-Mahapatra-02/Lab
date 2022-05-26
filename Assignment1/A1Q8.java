@@ -7,9 +7,10 @@ public class A1Q8 {
         int n = input.nextInt();
         int[] a = new int[n];
         int[] b = new int[n];
-        System.out.println("Enter "+ n +" values for array a => ");
+        System.out.print("Enter "+ n +" values for array a => ");
         for (int i = 0; i < a.length; i++) 
             a[i]=input.nextInt();
+        System.out.print("Enter "+ n +" values for array b => ");
         for (int i = 0; i < b.length; i++) 
             b[i]=input.nextInt();
         int[] array = returnArray(a, b);
