@@ -3,12 +3,11 @@ public class StudentQ9{
   private String name;
   private long roll;
   private double mark;
+  Scanner sc = new Scanner (System.in);
   void setData(){
-    Scanner sc = new Scanner (System.in);
     this.name = sc.nextLine();
     this.roll = sc.nextLong();
     this.mark = sc.nextDouble();
-    sc.close();
   }
   void display(){
       System.out.println("Name: "+name);
