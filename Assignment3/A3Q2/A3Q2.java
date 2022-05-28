@@ -1,3 +1,5 @@
+package A3Q2;
+
 // import java.util.Scanner;
 
 public class A3Q2 {

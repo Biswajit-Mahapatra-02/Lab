@@ -1,3 +1,5 @@
+package A1Q1;
+
 import java.util.Scanner;
 
 public class A3Q1 {
