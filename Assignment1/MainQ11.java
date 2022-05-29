@@ -6,13 +6,9 @@ public class MainQ11 {
 		PointQ11 A = new PointQ11();
 		PointQ11 B = new PointQ11();
 		System.out.println("Enter details for point A: ");
-		double x = sc.nextDouble();
-		double y = sc.nextDouble();
-		A.setPoint(x, y);
+		A.setPoint(sc.nextDouble(), sc.nextDouble());
 		System.out.println("Enter details for point B: ");
-		x = sc.nextDouble();
-		y = sc.nextDouble();
-		B.setPoint(x, y);
+		B.setPoint(sc.nextDouble(), sc.nextDouble());
 		findDistance(A,B);
 		sc.close();
 	}
