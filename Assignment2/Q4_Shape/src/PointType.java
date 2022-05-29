@@ -1,3 +1,5 @@
+package Q4_Shape.src;
+
 public class PointType {
     private double x;
     private double y;

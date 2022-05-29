@@ -1,3 +1,5 @@
+package Q2_Complex;
+
 import java.util.Scanner;
 public class CompleXmain {
 	public static void main(String[] args) {

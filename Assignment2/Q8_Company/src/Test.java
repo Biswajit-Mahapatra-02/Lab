@@ -1,4 +1,4 @@
-package Q8_Company;
+package Q8_Company.src;
 
 import java.util.Scanner;
 public class Test {
@@ -34,5 +34,4 @@ public class Test {
 		}
 		sc.close();
 	}
-
 }

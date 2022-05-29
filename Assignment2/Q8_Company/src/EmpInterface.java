@@ -1,4 +1,4 @@
-package Q8_Company;
+package Q8_Company.src;
 
 public interface EmpInterface {
 	void displayEmp();

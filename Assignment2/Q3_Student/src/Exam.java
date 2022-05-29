@@ -1,3 +1,5 @@
+package Q3_Student.src;
+
 public class Exam extends Student {
     private double mark1;
     private double mark2;

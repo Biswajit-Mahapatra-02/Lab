@@ -1,3 +1,5 @@
+package Q4_Shape.src;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +19,6 @@ public class Main {
         System.out.print("\nPosition of the circle's center is: ("+C.circlePosition().getX()+
                 ", "+C.circlePosition().getY()+")");
         System.out.print("\nArea of the given circle: "+C.circleArea());
+        sc.close();
     }
 }

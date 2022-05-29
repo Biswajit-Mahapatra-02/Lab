@@ -1,3 +1,5 @@
+package Q1_Commission;
+
 import java.util.*;
 public class Demo {
 

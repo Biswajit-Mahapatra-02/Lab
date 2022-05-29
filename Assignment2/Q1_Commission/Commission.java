@@ -1,3 +1,5 @@
+package Q1_Commission;
+
 
 public class Commission {
 	private double sales;
