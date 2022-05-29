@@ -15,5 +15,4 @@ public class Demo {
 			System.out.println("Invalid value");
 		sc.close();
 	}
-
 }
