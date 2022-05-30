@@ -1,10 +1,8 @@
 package A3Q2;
 
-// import java.util.Scanner;
 
 public class A3Q2 {
     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
         String[] colorsStrings = {"Blue", "Black", "White", "Red", "Green"};
         try{
             int i = 0;
@@ -16,11 +14,11 @@ public class A3Q2 {
         } catch(IndexOutOfBoundsException e){
             System.out.println("\nAll my favorite colors have been printed.");
         }
-        System.out.print("Enter a new number? ");
+        int[] nullarr = null;
         try{
-
-        } catch(Exception e){
-            System.err.println(e);
+            System.out.println(nullarr.length);
+        } catch(NullPointerException e){
+            System.err.println("The array is null.");
         }
     }
 }
