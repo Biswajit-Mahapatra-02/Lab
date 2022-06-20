@@ -1,0 +1,4 @@
+Node P = new Node():
+P.info = sc.nextInt();
+P.link = null;
+start = P;
